@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    color: white;
+    padding: 30px;
+}
+
+h1 {
+    display: flex;
+    font-size: xx-large;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    justify-content: space-between;
+}
+
+.title1 {
+    font-size: x-large;
+    padding: 20px;
+
+}
+
+.box1 {
+    background-color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+    text-align: center;
+}
+
+.title2 {
+    font-size: x-large;
+    padding: 20px;
+}
+
+.box2 {
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+    text-align: center;
+}
+
+.title3 {
+    font-size: x-large;
+    padding: 20px;
+}
+
+.box3 {
+    background-color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: x-large;
+    padding: 20px;
+}
+
+.service1 {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 40px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.service2 {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 40px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.service3 {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 40px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.title4 {
+    font-size: x-large;
+    padding: 20px;
+}
+
+.box4 {
+    background-color: white;
+    padding: 80px;
+}
+
+input {
+    border-radius: 5px;
+    height: 50px;
+    width: 600px;
+    margin: 10px;
+}
+
+button {
+    background-color: black;
+    border-radius: 5px;
+    height: 30px;
+    width: 50px;
+    color: white;
+}
+
+.forService {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+footer {
+    margin: 10px;
+    background-color: grey;
+    text-align: center;
+    color: white;
+    height: 100px;
+    justify-content: center;
+    align-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+    ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .forService{
+flex-direction: column;
+    }
+
+    .box4{
+        width: 100%;
+        padding: 0;
+        margin-top: 60px;   
+    }
+
+    input {
+        width: 250px;
+        justify-content: center;
+        align-items: center;
+    }
+}
